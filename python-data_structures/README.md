@@ -1,6 +1,5 @@
-Python - Data Structures: Lists, Tuples
----
-Task directory using data structures in python
+## python-data_structures
 
-| TASK | DESCRIPTION |
-| ------ | ------ |
+
+
+
