@@ -1,4 +1,5 @@
-# 0x0C. Python - Almost a circle
+## Python - Almost a circle
+
 This project is about import, exceptions, class, private attribute, getter/setter, class method, static method, Inheritance, Unittest, Read/Write file
 
 ## PROJECTS
@@ -49,8 +50,4 @@ This project is about import, exceptions, class, private attribute, getter/sette
 
 
 
-Author: Luis Manrique (luismanrique158158@gmail.com)
 
-Linkedin: https://www.linkedin.com/in/luis-manrique158158/
-
-Twitter: https://twitter.com/LuisManriqueDev
