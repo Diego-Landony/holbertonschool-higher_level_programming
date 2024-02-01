@@ -1,6 +1,11 @@
-const $headerElem = $('header');
-const $divRedHeader = $('div#red_header');
+const toggleHeader = document.querySelector('#toggle_header');
 
-$divRedHeader.on('click', function () {
-  $headerElem.addClass('red');
+toggleHeader.addEventListener('click', () => {
+  if (header.classList.contains('red')) {
+    header.classList.remove('red');
+    header.classList.add('green');
+  } else {
+    header.classList.remove('green');
+    header.classList.add('red');
+  }
 });

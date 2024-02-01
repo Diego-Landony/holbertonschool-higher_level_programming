@@ -1,3 +1,9 @@
-const $headerElem = $('header');
+const header = document.querySelector('header');
+const redHeader = document.querySelector('#red_header');
 
-$headerElem.css('color', '#FF0000');
+redHeader.addEventListener('click', () => {
+  if (header.classList.contains('green')) {
+    header.classList.remove('green');
+    header.classList.add('red');
+  }
+});

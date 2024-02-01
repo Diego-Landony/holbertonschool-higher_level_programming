@@ -1,6 +1,7 @@
-const $headerElem = $('header');
-const $updateHeaderElem = $('div#update_header');
+const character = document.querySelector('#character');
 
-$updateHeaderElem.on('click', () => {
-  $headerElem.text('New Header!!!');
-});
+fetch('https://swapi-api.hbtn.io/api/people/5/?format=json')
+  .then(response => response.json())
+  .then(data => {
+    character.textContent = data.name;
+  });
